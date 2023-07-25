@@ -69,6 +69,79 @@ body {
 .header {
     grid-area: 1 / 2 / 2 / 3;
     background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 1fr 1.2fr;
+}
+
+.header-top {
+    padding: 0px 30px;
+    display: grid;
+    font-size: 24px;
+    align-items: center;
+    grid-template-columns: 48px 1fr 48px 64px 200px;
+}
+
+
+.header-top img {
+    height: 28px;
+    width: auto;
+    margin-right: 24px;
+}
+
+.header-top form {
+    margin-right: 200px;
+}
+
+.header-top>form>input{
+    font-size: 24px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.header-top img.profile-pic {
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+}
+
+.header-bottom {
+    padding: 0 30px 15px 30px;
+    display: grid;
+    grid-template-columns: 120px 1fr 480px;
+}
+
+.header-bottom img.profile-pic {
+    align-self: center;
+    height: 96px;
+    width: 96px;
+    border-radius: 96px;
+}
+
+.header-options {
+    align-self: center;
+}
+
+.header-options>button {
+    width: 120px;
+    height: 50px;
+    margin-right: 25px;
+    font-size: 24px;
+    font-family: "Roboto";
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    align-self: center;
+}
+
+#name {
+    font-weight: bold;
+    margin-top: 6px;
+    font-size: 32px;
 }
 
 .main-content {
