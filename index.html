@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="./AdminDbStyles.css">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="main-grid-container">
@@ -44,7 +44,7 @@
         </div>
         <div class="main-content">
             <div class="project-container">
-                <p>Your Projects</p>
+                <p class="project-header">Your Projects</p>
                 <div class="project">
                     <p class="project-title">The Amazing Project</p>
                     <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet sunt quam beatae iure consequuntur numquam perspiciatis esse voluptatem voluptatum odit amet, alias reprehenderit, harum cum omnis id. Aliquid, corrupti veritatis?</p>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="project">
                     <p class="project-title">The Project Strikes Back</p>
-                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, debitis itaque? Hic facilis nihil quae, eligendi consequuntur, alias esse a repellat perspiciatis expedita quo ratione sed asperiores aliquid quos sapiente!</p>
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="project-options">
                         <img src="./pictures/star-plus.svg">
                         <img src="./pictures/eye-plus.svg">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="project">
                     <p class="project-title">Project Returns</p>
-                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, iste. Dolores expedita nostrum aliquid at non libero culpa odio placeat quis officiis architecto natus, sunt unde. Nobis, sint? Nulla, aspernatur?</p>
+                    <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, iste.</p>
                     <div class="project-options">
                         <img src="./pictures/star-plus.svg">
                         <img src="./pictures/eye-plus.svg">
@@ -74,7 +74,7 @@
                 </div>
                 <div class="project">
                     <p class="project-title">Project: Endgame</p>
-                    <p class="project-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus asperiores hic molestias voluptate officiis ipsa quam sed vitae ea. Et explicabo voluptate debitis nesciunt beatae, iusto fugiat impedit deserunt non!</p>
+                    <p class="project-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus asperiores hic molestias voluptate officiis ipsa quam sed vitae ea.</p>
                     <div class="project-options">
                         <img src="./pictures/star-plus.svg">
                         <img src="./pictures/eye-plus.svg">
@@ -101,36 +101,47 @@
                 </div>
             </div>
             <div class="announcements-container">
-                <p>Announcements</p>
+                <p class="announcements-header">Announcements</p>
                 <div class="announcements">
                     <p class="announcement-title">Site Maintenance</p>
-                    <p class="announcement-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque esse aliquam consequatur similique eos. Tenetur accusantium ad repellendus voluptatem magni eos atque placeat, beatae optio, veritatis iusto incidunt cumque. Quas.</p>
+                    <p class="announcement-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque esse aliquam consequatur similique eos.</p>
                     <p class="announcement-title">Community Share Day</p>
-                    <p class="announcement-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores commodi quidem nam excepturi, nisi rem. Necessitatibus odit doloribus dignissimos quibusdam vel, magni ipsa ullam sunt nemo? Culpa sit sint a.</p>
+                    <p class="announcement-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores commodi quidem nam excepturi, nisi rem.</p>
                     <p class="announcement-title">Updated Privacy Policy</p>
-                    <p class="announcement-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum et deserunt reiciendis, quia esse eius. Excepturi quasi quod quidem, molestiae vero porro error omnis! Repellat consequuntur atque aspernatur harum a.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum et deserunt reiciendis, quia esse eius.</p>
                 </div>
             </div>
             <div class="trending">
-                <div class="trending-project">
-                    <img src="./pictures/markus-spiske-MgtHZ4zlC1U-unsplash.jpg" class="trending-avatar">
-                    <p class="handle">@DeveloperDave17</p>
-                    <p class="project-title">The Amazing Project</p>
-                </div>
-                <div class="trending-project">
-                    <img src="./pictures/rob-potter-k66RRY1M2DA-unsplash.jpg" class="trending-avatar">
-                    <p class="handle">@lionGuy67</p>
-                    <p class="project-title">The Project</p>
-                </div>
-                <div class="trending-project">
-                    <img src="./pictures/gurth-bramall-98DpAlaUohA-unsplash.jpg" class="trending-avatar">
-                    <p class="handle">@TallProgrammer2000</p>
-                    <p class="project-title">Height Project</p>
-                </div>
-                <div class="trending-project">
-                    <img src="./pictures/kamil-klyta-pFeG5xgsQHQ-unsplash.jpg" class="trending-avatar">
-                    <p class="handle">@hoppingalong70</p>
-                    <p class="project-title">Easter Project</p>
+                <p class="trending-header">Trending</p>
+                <div class="trending-projects">
+                    <div class="trending-project">
+                        <img src="./pictures/markus-spiske-MgtHZ4zlC1U-unsplash.jpg" class="trending-avatar">
+                        <div class="user-info">
+                            <p class="handle">@DeveloperDave17</p>
+                            <p class="trending-title">The Amazing Project</p>
+                        </div>
+                    </div>
+                    <div class="trending-project">
+                        <img src="./pictures/rob-potter-k66RRY1M2DA-unsplash.jpg" class="trending-avatar">
+                        <div class="user-info">
+                            <p class="handle">@lionGuy67</p>
+                            <p class="trending-title">The Project</p>
+                        </div>
+                    </div>
+                    <div class="trending-project">
+                        <img src="./pictures/gurth-bramall-98DpAlaUohA-unsplash.jpg" class="trending-avatar">
+                        <div class="user-info">
+                            <p class="handle">@TallProgrammer2000</p>
+                            <p class="trending-title">Height Project</p>
+                        </div>
+                    </div>
+                    <div class="trending-project">
+                        <img src="./pictures/kamil-klyta-pFeG5xgsQHQ-unsplash.jpg" class="trending-avatar">
+                        <div class="user-info">
+                            <p class="handle">@hoppingalong70</p>
+                            <p class="trending-title">Easter Project</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
